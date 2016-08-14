@@ -1,0 +1,17 @@
+{
+  "name": "react_tut",
+  "description": "Tutorial files",
+  "main": "index.js",
+  "authors": [
+    "Nick Soper <nicksoper@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/StNick/react_tut",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "react_tut",
+  "version": "1.0.0",
+  "description": "Tutorial files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StNick/react_tut.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StNick/react_tut/issues"
+  },
+  "homepage": "https://github.com/StNick/react_tut#readme",
+  "dependencies": {
+    "browser-sync": "^2.14.0",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.30"
+  }
+}
