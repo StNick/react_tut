@@ -17,7 +17,12 @@ gulp.task('serve', ['bundle', 'live-server'], function(){
     });
 });
 
-gulp.task('bundle', function(){
+gulp.task('copy', function(){
+    gulp.src(['app/*.css'])
+    .pipe(gulp.dest('./.tmp'));
+    })
+
+gulp.task('bundle', ['copy'], function(){
     return browserify({
         entries: 'app/main.jsx',
         debug: true
